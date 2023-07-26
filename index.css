@@ -1,0 +1,9 @@
+#signup {
+  color: rgb(85, 85, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+#signup:hover {
+  color: rgb(0, 0, 172);
+}
+

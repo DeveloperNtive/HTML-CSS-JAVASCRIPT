@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+
+<body class="container col-6 d-flex justify-content-center mt-5">
+    <div> <!--Contenedor-->
+        <div class="text-center">
+            <h3>Login</h3>
+        </div><!--Encabezado-->
+
+        <div class="px-5 pt-5 pb-1 shadow-lg" id="body" style=" border-radius: 20px;width: 380px;">
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="" id="email" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="" id="password" class="form-control">
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary py-1" id="buttonSubmit">Submit</button>
+            </div>
+
+            <div class="text-center">
+                <span id="errorSpan"></span>
+            </div>
+        </div><!--Formulario-->
+        <div style="text-align: end;">
+            <a style="width: 50%;float: right;" id="signup">Crear una cuenta</a>
+        </div><!--Footer-->
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
